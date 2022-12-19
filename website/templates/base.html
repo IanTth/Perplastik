@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
+  <title>{% block title %}changed{% endblock %}</title>
+  <meta name="google-site-verification" content="p70290OGW9uXaBiqJMtWkEcWbi3N6qaVP8kUvaCeDIM" />
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/img/icone.png" rel="icon">
+  <link href="static/img/icone.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ url_for('static', filename='vendor/animate.css/animate.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope-fill"></i><a href="comercial@perplastik.com.br">comercial@perplastik.com.br</a>
+        <i class="bi bi-phone-fill phone-icon"></i> <div class="numero">(81) 4040-5365 (81) 4042-5400 |  <i class="bi bi-whatsapp"></i> </div> <div class="nwpp">(81) 99958-6491 </div> 
+        
+      </div>
+      <div class="social-links d-none d-md-block">
+        <a target="_blank" href="https://www.facebook.com/Perplastik-106191392070095/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a target="_blank" href="https://instagram.com/perplastik?igshid=YmMyMTA2M2Y=" class="instagram"><i class="bi bi-instagram"></i></a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <!--<h1 class="logo me-auto"><a href="index.html">Green</a></h1>-->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="/" class="logo me-auto"><img src="static/img/nome.png" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Portfólio</a></li>
+          <li class="dropdown"><a href="#services"><span>Produtos & Serviços</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="produtos">Tampas</a></li>
+              <li><a href="serviços">Desenvolvimento de Projetos</a></li>
+              <li><a href="serviços">Soluções Direcionadas</a></li>
+
+              
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contatos</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+  {% block content %}
+  {% endblock %}
+
+
+
+
+ <!-- ======= Footer ======= -->
+ <footer style="background-image : url(static/img/footer.png)" id="footer">
+
+ 
+
+  <div class="footer-top">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-xl-10">
+          <div class="row">
+            <h2>Perplastik</h2>
+            <p>
+              Tecnologia para um amanhã agora!
+            </p>
+
+          </div>
+          <div class="row">
+
+            
+
+            
+             
+              <div class="social-links mt-3">
+                <a target="_blank" href="https://www.facebook.com/Perplastik-106191392070095/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a target="_blank" href="https://instagram.com/perplastik?igshid=YmMyMTA2M2Y=" class="instagram"><i class="bx bxl-instagram"></i></a>
+              </div>
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; 2022 <strong><span>Perplastik</span></strong>. Todos os Direitos Reservados
+    </div>
+    <div class="credits">
+     
+      <a style="color: rgb(56, 56, 56);" href="https://bootstrapmade.com/demo/Green/">BootstrapMade Green</a>
+    </div>
+  </div>
+</footer>
+
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='vendor/php-email-form/validate.js') }}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+  <!-- Google tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-244279365-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-244279365-1');
+</script>
+
+</body>
+
+</html>

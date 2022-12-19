@@ -1,0 +1,397 @@
+{% extends "base.html"%}
+{% block title %}Perplastik{% endblock %}
+
+{% block content %}
+<body>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+ 
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(static/img/slide/slide1.png)">
+          <div class="carousel-container">
+            
+                <div class="container">
+                  <div class="hero-slide1">
+                    <h2 class="animate__animated animate__fadeInDown">Bem vindo</h2>
+                    <p class="animate__animated animate__fadeInUp">Bem vindo a Perplastik, estamos aqui para ajudar você e sua empresa com nossas soluções em tampas, serviços<br> de injeção, desenvolvimento de projetos, peças técnicas entre outros. Saiba mais sobre nós.</p>
+                    <a style="background-color: #0175BF;" href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Ler Mais</a>
+                  </div>
+                </div>
+                
+              
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(static/img/slide/slide2.jpeg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Sustentabilidade</h2>
+              <p class="animate__animated animate__fadeInUp">Pensando no futuro a Perplastik utiliza de processos tecnológicos de fabricação aliados a tecnologias de reciclagem para criar um futuro mais sustentável.</p>
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(static/img/slide/slide3.png)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Por um mundo mais ecológico</h2>
+              <p class="animate__animated animate__fadeInUp">A Perplastik é comprometida com a natureza, por isso trabalhamos para tornar nosso planeta melhor a cada dia. Medidas ecológicas são adotadas em nossos processos de fabricação de descarte, o que nos torna uma empresa ecológica e parceira do meio ambiente.</p>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2">
+            <div class="img-about">
+               <img src="static/img/about.png"  class="img-fluid" alt="">
+              </div>          
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h2>O que é a Perplastik?</h2>
+            <p>
+              A Perplastik é muito além de uma empresa especializada na fabricação de produtos plásticos. Trata-se de uma empresa moderna, comprometida com qualidade e com a natureza. Nossos processos de fabricação contam com a mais alta ternologia, garantindo produtos de qualidade com menos impacto ambiental.
+            </p>
+
+            <p>
+              Nossa equipe é formada por profissionais qualificados, com anos de experiência para atender você e sua empresa. A Perplastik é a melhor escolha para quem precisa de serviços na fabricação de tampas em geral, serviços de injeção, desenvolvimento de projetos, produtos exclusivos, peças técnicas, entre outros.
+            </p>
+
+            <p>
+              Situada em Pernambuco, cobrimos todo Norte e Nordeste do Brasil. Além da presença regional, trabalhamos como fornecedores para clientes globais. Para isso trabalhamos 24 horas por dia produzindo produtos de alta qualidade, garantindo a entrega de produtos específicos em cada cliente.
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <br>
+      <br>
+      <br>
+    </section><!-- End About Us Section -->
+    
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfólio</h2>
+          <p>O nosso portfólio mostra um pouco de nossos produtos e tecnologias,  estamos  sempre atualizando novos produtos com tecnologia avançadas para solucionar seus problemas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">Todos</li>
+              <li data-filter=".filter-app">Tampas</li>
+              <li data-filter=".filter-card">Dedicados</li>
+              <li data-filter=".filter-web">Peças Tecnicas</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="static/img/tampas/tampas7.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Tampa Comum</h4>
+                <p>Tampa Baixa 42/43 S/ Lacre</p>
+                <div class="portfolio-links">
+                  <a href="static/img/tampas/tampas7.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="/produtos" title="Mais Detalhes"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="static/img/tampas/dedicados1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Tampa Dedicada</h4>
+                <p>Com Logo Estampada</p>
+                <div class="portfolio-links">
+                  <a href="static/img/tampas/dedicados1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="/produtos" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="static/img/tampas/tampasd1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Tampa Galão </h4>
+                <p>5L C/ Lacre</p>
+                <div class="portfolio-links">
+                  <a href="static/img/tampas/tampasd1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="/produtos" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="static/img/tampas/peçatecnica1.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Peças Técnicas</h4>
+                <p></p>
+                <div class="portfolio-links">
+                  <a href="static/img/tampas/peçatecnica1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="/produtos" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="static/img/tampas/dedicados2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Tampa Dedicada</h4>
+                <p>Com Logo Estampada</p>
+                <div class="portfolio-links">
+                  <a href="static/img/tampas/dedicados2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="/produtos" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="static/img/tampas/tampasd3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Tampa Multiuso</h4>
+                <p></p>
+                <div class="portfolio-links">
+                  <a href="static/img/tampas/tampas3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="/produtos" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="static/img/tampas/peçatecnica2.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Peças Técnicas</h4>
+                <p></p>
+                <div class="portfolio-links">
+                  <a href="static/img/tampas/peçatecnica2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="/produtos" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="static/img/tampas/dedicados3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Tampa Dedicada</h4>
+                <p>Com Logo Estampada</p>
+                <div class="portfolio-links">
+                  <a href="static/img/tampas/dedicados3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="/produtos" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+  
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Produtos & Serviços</h2>
+          <p>A Perplastik trabalha 24 horas por dia produzindo produtos de alta qualidade, Situada no Nordeste, cobrimos todo nordeste e norte do Brasil, além da presença regional, trabalhamos como fornecedores para clientes globais, garantindo a entrega de produtos específicos em cada localidade do cliente.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch" >
+            <div class="icon-box">
+              <div class="icon" >
+                <a href="/produtos"><img src="static/img/serviços/produtos.png" alt="Nossos Produtos" class="img-fluid"></a>
+              </div>
+
+              <br>
+              <p>Produzimos soluções em tampas plásticas em geral, com um rigoroso controle de qualidade bem como métodos de fabricação e equipamentos estritamente definidos para cada produto, mantemos a alta qualidade de nossos produtos em qualquer tipo de tampa.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" >
+            <div class="icon-box iconbox-red ">
+              <div class="icon" >
+                <a href="serviços"><img src="static/img/serviços/serviços.png" alt="Nossos Serviços" class="img-fluid"></a>
+              </div>
+
+              <br>
+              <p>Usando nossa tecnologia avançada, a Perplastik  é capaz de produzir qualquer tipo de peças técnicas em práticas sempre com a alta qualidade.</p>
+            </div>
+          </div>
+
+          
+
+        </div>
+      </div>
+    </section><!-- End Services Section -->
+    <br>
+    <br>
+    <br>
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" style="background-color: #0000B0; color: #fff;" class="featured-services section-bg">
+      <div class="container">
+
+        <div class="row no-gutters">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" >
+              <div class="icon"><a href="#"><img src="static/img/icones/entrega.png" alt="Nossos Serviços" class="img-fluid"></a></div>
+              <h4 class="title"><a href="">Entrega</a></h4>
+              <p class="description">Horário comercial na condição CIF ou FOB.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box">
+              <div class="icon"><a href="#"><img src="static/img/icones/horarios.png" alt="Nossos Serviços" class="img-fluid"></a></div>
+              <h4 class="title"><a href="">Horários Comercial</a></h4>
+              <p class="description">8:00 as 12:00 e 13:00 as 17:00</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box">
+              <div class="icon"><a href="#"><img src="static/img/icones/pagamento.png" alt="Nossos Serviços" class="img-fluid"></a></div>
+              <h4 class="title"><a href="">Pagamento seguro</a></h4>
+              <p class="description">Pix ou boleto</p>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+    </section><!-- End Featured Services Section -->
+    <br>
+    <br>
+    <br>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contatos</h2>
+          <br>
+          <br>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Endereço:</h4>
+                <p>Rua Carlos Pena Filho, 801, Galpão D, Fragoso, Olinda, PE, Cep: 53250-430</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>E-mail:</h4>
+                <p>comercial@perplastik.com.br</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Número:</h4>
+                <p>(81) 4040-5365 | (81) 4042-5400 |<br> (81) 99958-6491</p>
+               
+               
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.0705765740404!2d-34.85590168468536!3d-7.991648681918749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1914800aa92d%3A0xe68f5cc1639d0d06!2sMercato%20Ind%C3%BAstria%20de%20Alimentos%20Ltda.!5e0!3m2!1spt-BR!2sbr!4v1651759164869!5m2!1spt-BR!2sbr" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form  action="https://formsubmit.co/comercial@perplastik.com.br" method="POST" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Seu Nome</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6 mt-3 mt-md-0">
+                  <label for="name">Seu Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <label for="name">Assunto</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <label for="name">Mensagem</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+
+              <div class="text-center"><button style="background-color: #0175BF;" type="submit">Enviar Mensagem</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+       <br>
+    </section><!-- End Contact Section -->
+ 
+  </main><!-- End #main -->
+
+  {% endblock %}
+</body>
+
+</html>
