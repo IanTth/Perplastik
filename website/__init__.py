@@ -6,7 +6,7 @@ def create_app():
     app.config['SECRET_KEY'] = 'Ian@ç422%'
 
     from .views import views
-
+    
     app.register_blueprint(views, url_prefix='/')
 
     return app

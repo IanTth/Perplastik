@@ -19,3 +19,4 @@ def serviços():
 @views.route('contatos')
 def contatos():
     return render_template('contatos.html')
+

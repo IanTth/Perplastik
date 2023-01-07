@@ -13,9 +13,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
-}
+
 hr {
   margin: 40px 0;
 }
@@ -357,7 +355,7 @@ hr {
 .hero-slide1{
 
   position: relative;
-  left: 400px;
+  left: 250px;
   
 }
 @media only screen and (max-width: 767px) {
